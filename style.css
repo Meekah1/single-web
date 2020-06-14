@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.allheading {
+    text-align: center;
+    padding: 5px;
+}
+
+#textline {
+    background-color: skyblue;
+}
+#opening {
+    text-align: center;
+    color: blue;
+    padding: 10px 80px
+}
+
+.cpetext { 
+    position: relative;
+    top: 15px;
+    left: 70px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 500px;
+    height: 130px;
+    border: 7px brown dotted; 
+    
+}
+
+
+.pectext { 
+    position: relative;
+    top: -150px;
+    left: 730px;
+    padding: 10px;
+    width: 500px;
+    height: 130px;
+    border: 7px brown dotted; 
+}
+
+.ecptext { 
+    position: relative;
+    top: -70px;
+    left: 400px;
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+    border: 5px brown solid; 
+}
+
+#meu {
+    margin-left: 40px;
+    height: 630px;
+    width: 650px;
+    border: 3px brown solid; 
+}
+
+#qcsi {
+    position: relative;
+    top: -635px;
+    left:  740px;
+    border: 3px brown solid;
+    height: 630px;
+    width: 550px;
+}
+
+ul {
+    padding: 10px 20px;
+}
+
+li {
+    padding: 2px;
+    margin-left: 5px
+}
+
+p {
+    padding: 8px;
+}
+
+.gallery {
+    padding: 10px;
+}
+
+.gallery__image {
+    height: 500px;
+    padding: 10px;
+    transition: all 10s;
+}
+
+.gallery__image:hover {
+    outline: 1rem solid grey;
+    transform: scale(1.05) rotate(270deg) translateY(-.7rem) ;
+    z-index: 10;
+}
+
+.image1 {
+    position: relative;
+    top: -600px;
+    left: 135px;
+    z-index: 2;
+
+    
+
+}
+
+.image2 {
+    position: relative;
+    top: -2px;
+    left: -271px;
+    z-index: 3;
+
+}
+
+.image3 {
+    position: relative;
+    top: -1000px;
+    left: 350px;
+
+}
+
+.image4 {
+    position: relative;
+    top: -1170px;
+    left: 155px;
+
+}
+
+.image5 {
+    position: relative;
+    top: -1121px;
+    left: 877px;
+
+}
